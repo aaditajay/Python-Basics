@@ -1,0 +1,11 @@
+s=0
+n=int(input("ENTER A VALUE"))
+t=n
+while n>0:
+    r=n%10
+    s=s+r*r*r
+    n=int(n/10)
+if s==t:
+ print('IS AN ARMSTRONG')
+else:
+ print('IS NOT AN ARMSTORNG')
